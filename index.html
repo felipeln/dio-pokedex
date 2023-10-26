@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./assets/css/main.css">
+  <title>Pokedex</title>
+</head>
+<body>
+  <header>
+    <h1>What Pokemon <br> are you looking for?</h1>
+    <nav>
+      <form  action="/search" method="get" class="search-bar-wrapper">
+        <button type="submit">
+          <?xml version="1.0" ?><!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.1//EN'  'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'><svg height="512px" id="Layer_1" style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" width="512px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M344.5,298c15-23.6,23.8-51.6,23.8-81.7c0-84.1-68.1-152.3-152.1-152.3C132.1,64,64,132.2,64,216.3  c0,84.1,68.1,152.3,152.1,152.3c30.5,0,58.9-9,82.7-24.4l6.9-4.8L414.3,448l33.7-34.3L339.5,305.1L344.5,298z M301.4,131.2  c22.7,22.7,35.2,52.9,35.2,85c0,32.1-12.5,62.3-35.2,85c-22.7,22.7-52.9,35.2-85,35.2c-32.1,0-62.3-12.5-85-35.2  c-22.7-22.7-35.2-52.9-35.2-85c0-32.1,12.5-62.3,35.2-85c22.7-22.7,52.9-35.2,85-35.2C248.5,96,278.7,108.5,301.4,131.2z"/></svg>
+        </button>
+        <input type="search" name="search-bar" id="search-bar" placeholder="Search Pokemon, Move, Ability etc">
+        
+      </form>
+      <ul id="home-menu">
+        <li class="home-menu-link"><a href="#">Pokedex</a></li>
+        <li class="home-menu-link"><a href="#">Moves</a></li>
+        <li class="home-menu-link"><a href="#">Abilities</a></li>
+        <li class="home-menu-link"><a href="#">Itens</a></li>
+        <li class="home-menu-link"><a href="#">Locations</a></li>
+        <li class="home-menu-link"><a href="#">Type Charts</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <section id="pokemon-news">
+    <header>
+      <h2>Pokemon News</h2>
+      <button>View All</button>
+    </header>
+    <article class="news">
+      <div class="new-info">
+        <h3 class="new-title">
+          Pokemon Rumble Rush Arrives Soon
+        </h3>
+        <p class="new-data">19 may 2023</p>
+      </div>
+      <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png
+      " alt="">
+    </article>
+
+    <article class="news">
+      <div class="new-info">
+        <h3 class="new-title">
+          Pokemon Rumble Rush Arrives Soon
+        </h3>
+        <p class="new-data">19 may 2023</p>
+      </div>
+      <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png
+      " alt="">
+    </article>
+
+    <article class="news">
+      <div class="new-info">
+        <h3 class="new-title">
+          Pokemon Rumble Rush Arrives Soon
+        </h3>
+        <p class="new-data">19 may 2023</p>
+      </div>
+      <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png
+      " alt="">
+    </article>
+  </section>
+
+  <script src="./assets/js/index.js"></script>
+</body>
+</html>
