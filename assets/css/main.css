@@ -1,0 +1,80 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Raleway', sans-serif; 
+}
+
+header, section{
+  padding: 40px;
+}
+
+header h1{
+  font-weight: 700;
+}
+
+.search-bar-wrapper #search-bar{
+  width: 320px;
+  padding: 8px 16px;
+
+}
+
+#home-menu{
+  margin: 40px 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+#home-menu  .home-menu-link{
+  list-style: none;
+
+  padding: 24px 12px;
+  border: 1px solid red;
+  border-radius: 5px;
+  background-color: blue;
+}
+#home-menu  .home-menu-link a{
+  text-decoration: none;
+  color: #fff;
+
+}
+
+
+#pokemon-news header{
+  padding: 0; margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+
+}
+#pokemon-news header h2{
+font-size: 1.5em;
+}
+#pokemon-news header button{
+  outline: none;
+  border: none;
+  background-color: #fff;
+  color: blue;
+  padding: 10px;
+  height: 40px;
+
+  cursor: pointer;
+}
+
+.news{
+  display: flex;
+  gap: 40px;
+  justify-content: space-between;
+}
+.news .new-info h3{
+  font-weight: 700;
+  font-size: 1em;
+}
+.news .new-info .new-data{
+  padding: 10px 0 ;
+  color: gray;
+  font-size: 14px;
+}
